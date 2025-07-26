@@ -4,110 +4,118 @@ Free downloadable resources for doing GIS in Thailand
 
 รวมเว็บไซต์ดาวน์โหลดไฟล์ GIS ของประเทศไทย (ฟรี)
 
-## Shapefiles and Raster Datasets
+## Static Map Data
 
-### [แผนที่เขตการเลือกตั้งทั่วไป พ.ศ. 2566](https://github.com/KittapatR/Thai-ECT-election-map-66) 
+### [Thai ECT Election Map 2023](https://github.com/KittapatR/Thai-ECT-election-map-66) - Electoral district boundaries
+- **Organization**: KittapatR (Community)
+- **Data types**: ESRI ShapeFile, SVG, GeoJSON
+- **Coverage**: Thailand electoral districts, municipalities, subdistricts
+- **Update frequency**: Electoral cycle
 
-Area: Thailand
+### [NETH's E-Portfolio](https://csuwan.weebly.com/360436343623360936603650362736213604--download.html) - Administrative and infrastructure data
+- **Organization**: NETH
+- **Data types**: Province, Amphoe, Tambon, Village boundaries; Schools; Roads; Land lots; Satellite imagery
+- **Coverage**: Thailand
+- **Update frequency**: Unknown
 
-#### Layers: 
+### [HDX Thailand Administrative Boundaries](https://data.humdata.org/dataset/thailand-administrative-boundaries) - Administrative boundaries
+- **Organization**: Humanitarian Data Exchange
+- **Data types**: Province (Polygon), Amphoe (Polygon), Tambon (Line)
+- **Coverage**: Thailand
+- **Update frequency**: Last update 2017
 
-1. ESRI ShapeFile เขตการเลือกตั้ง
-2. SVG files เขตการเลือกตั้งของแต่ละจังหวัด ซึ่งสามารถ access element ได้โดย g เป็นชื่อจังหวัดและ id เป็นเลขเขตการเลือกตั้ง
-3. GeoJSON ขอบเขตเทศบาล
-4. GeoJSON ขอบเขตตำบลในประเทศไทยและแขวงในกรุงเทพมหานคร
+### [Viewfinder Panorama](http://viewfinderpanoramas.org/dem3.html) - Digital elevation models
+- **Organization**: Viewfinder Panoramas
+- **Data types**: DEM 1″, 3″, 15″ (raster)
+- **Coverage**: Thailand, global
+- **Update frequency**: Last update 2014
 
-#### Glossaries:
+### [Natural Earth Data](http://www.naturalearthdata.com/downloads/) - Natural and cultural features
+- **Organization**: Natural Earth
+- **Data types**: Administrative boundaries, coastlines, roads, railroads, airports, ports, islands, elevation
+- **Coverage**: Thailand, global
+- **Update frequency**: Last update 2017
 
-1. PAT code: รหัสจังหวัด ตำบล อำเภอตามที่กำหนดโดยกรมการปกครอง มท.
-2. DLA code: รหัสเทศบาลตามที่กำหนดโดยกรมส่งเสริมการปกครองท้องถิ่น มท.
+### [U Penn's International GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254775) - Academic GIS resources
+- **Organization**: University of Pennsylvania
+- **Data types**: Various
+- **Coverage**: Thailand, Asian countries
+- **Update frequency**: Last update 2017
 
-### [NETH's E-Portfolio](https://csuwan.weebly.com/360436343623360936603650362736213604--download.html)
-
-Area: Thailand
-
-Layers: Administrative boundaries: Province (Polygon), Amphoe (Polygon), Tambon (Polygon), Village (Polygon); Schools; Roads; Land lots; Satellite imagery
-
-### [HDX](https://data.humdata.org/dataset/thailand-administrative-boundaries)
-
-Area: Thailand
-
-Layer(s): administrative boundaries (vector): Province (Polygon), Amphoe (Polygon), Tambon (Line)
-
-Last update: 2017
-
-### [Viewfinder Panorama](http://viewfinderpanoramas.org/dem3.html)
-
-Area: Thailand, world
-
-Layer(s): DEM 1″, 3″, 15″ (raster)
-
-Last update: 2014
-
-### [Natural Earth Data](http://www.naturalearthdata.com/downloads/)
-
-Area: Thailand, world
-
-Layer(s): Administrative boundaries, coastlines, roads, railroads, airports, ports, building blocks, islands, elevation data
-
-Last update: 2017
+## Dynamic Map Data
 
 
+## Applications
 
+### [Thailand Flood Realtime Dashboard](https://disaster.gistda.or.th/dashboard) - Flood monitoring application
+- **Organization**: GISTDA using Vallaris Maps
+- **Purpose**: Real-time flood monitoring and water level stations
+- **Coverage**: Thailand
+- **Update frequency**: Real-time
 
-### [Thailand Flood Monitoring System](http://flood.gistda.or.th/)
+### Land Parcel Mapping - Government land data visualization
+- **Organization**: Various government agencies
+- **Purpose**: Land plot visualization for provinces near Bangkok
+- **Coverage**: Bangkok metropolitan area
+- **Update frequency**: Varies
 
-Area: Thailand
+### Active Fire Monitoring - Satellite fire detection
+- **Organization**: Various
+- **Purpose**: Heat point tracking from satellite observations
+- **Coverage**: Thailand
+- **Update frequency**: Daily
 
-Layer(s): flood area (kml, shp)
+### Population Visualization Map (2020) - Population density mapping
+- **Organization**: Various
+- **Purpose**: Machine learning analysis of satellite imagery for population density
+- **Coverage**: Thailand
+- **Update frequency**: Census cycle
 
-Last update: 2017
-
-### [PCD.GO.TH กรมควบคุมมลพิษ](http://www.pcd.go.th/info_serv/pczs/pczGIS.cfm)
-
-Area: Thailand, some provinces
-
-Layers: Administrative boundaries: Province (Polygon), Amphoe (Polygon), Tambon (Polygon), Village (Polygon); road networks, water quality station; air quality station
-
-
-
-
-### [U Penn’s International GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254775)
-
-Area: Thailand, other Asian countries
-
-Last update: 2017
-
-## Spreadsheets
-
-
-
+### COVID-19 Mapping Applications - Pandemic tracking
+- **Organization**: Various government agencies
+- **Purpose**: Safe transit points and case visualization
+- **Coverage**: Thailand
+- **Update frequency**: During pandemic period
 
 ## Tools
 
-### [Overpass Turbo](https://overpass-turbo.eu/)
+### [Overpass Turbo](https://overpass-turbo.eu/) - OpenStreetMap query tool
+- **Purpose**: Extract GeoJSON data from OpenStreetMap
+- **Type**: Web-based query interface
 
-Global – GEOJSON query tool
+### [mapshaper](http://mapshaper.org/) - GIS format converter
+- **Purpose**: Convert between GeoJSON, KML, CSV, DBF, and Shapefile
+- **Type**: Web-based tool
 
-### [mapshaper](http://mapshaper.org/)
+### [MyGeodata Cloud](https://mygeodata.cloud/) - GIS data converter
+- **Purpose**: Convert between various GIS formats
+- **Type**: Web-based service
 
-GEOJSON, KML, CSV, DBF, and Shapefile converstion tool
+### [kepler.gl](https://kepler.gl/) - Geospatial visualization
+- **Purpose**: Interactive geospatial data visualization
+- **Type**: Uber's open source web tool
 
-### [MyGeodata Cloud](https://mygeodata.cloud/)
+### [GeoJSONLint](http://geojsonlint.com/) - GeoJSON validator
+- **Purpose**: Validate and visualize GeoJSON files
+- **Type**: Web-based validator
 
-GEOJSON, KML, CSV, DBF, and Shapefile converstion tool
+### [Project Linework](http://www.projectlinework.org/) - Cartographic resources
+- **Purpose**: Handcrafted lineworks for cartography
+- **Type**: Design resource
 
-### [kepler.gl](https://kepler.gl/)
+## Thai GIS Companies
 
-Uber's Open Source Geospatial Toolbox
+### [Vallaris Maps](https://vallarismaps.com/) - Cloud GIS platform
+- **Products**: Web-based mapping platform
+- **Services**: Data storage, analysis, visualization
+- **Sector**: Government and enterprise
 
-### [GeoJSONLint](http://geojsonlint.com/)
-
-Online Geojson reader
-
-### [Project Linework](http://www.projectlinework.org/)
-
-Handcrafted lineworks for cartography
+### [i-bitz](https://i-bitz.co.th/) - Geomatics technology
+- **Products**: 
+  - Vallaris: Cloud-based GIS web mapping tool
+  - JetStream: IoT data streaming platform
+- **Notable projects**: Thailand Budget Monitoring, Statistical GIS for NSO
+- **Background**: Mahidol University spin-off, 15+ years experience
 
 ---
 
