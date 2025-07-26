@@ -52,29 +52,8 @@ Layer(s): Administrative boundaries, coastlines, roads, railroads, airports, por
 
 Last update: 2017
 
-### [USGS Land Cover Institute (LCI)](https://landcover.usgs.gov/landcoverdata.php)
 
-Area: Thailand, world
 
-Layer(s): land cover, land use (raster)
-
-Last update: 2017
-
-### [DIVA GIS](http://www.diva-gis.org/gdata)
-
-Area: Thailand, world
-
-Layer(s): administrative boundaries, roads, railroads, elevation, population data (vector)
-
-Last update: 2017
-
-### [Dr.Marc Souris](http://www.rsgis.ait.ac.th/~souris/thailand.htm)
-
-Area: Thailand
-
-Layer(s): rivers, DEM, land cover, precipitation (vector and raster)
-
-Last update: 2000
 
 ### [Thailand Flood Monitoring System](http://flood.gistda.or.th/)
 
@@ -90,45 +69,8 @@ Area: Thailand, some provinces
 
 Layers: Administrative boundaries: Province (Polygon), Amphoe (Polygon), Tambon (Polygon), Village (Polygon); road networks, water quality station; air quality station
 
-### [Bangkok City Bus Guide (แผนที่รถเมล์ไทย)](https://bazztsu.blogspot.com/p/blog-page.html)
 
-Area: Bangkok
 
-Layers: Bangkok bus routes, in Google Mymaps format, convertable to .kml from Export Options
-
-Last update: 2018
-
-### [Bangkok GIS](http://www.bangkokgis.com/modules.php?m=download_shapefile)
-
-Area: Bangkok
-
-Layers: administrative boundaries, buildings, power stations, water stations, hospitals, chartered buildings, slaughter houses, dumpsters, post offices, traffic data, and many other things (vector)
-
-Last update: 2016
-
-### [Plannisa – Bangkok](https://asiancitymaps.wordpress.com/2017/04/14/bangkok/)
-
-Area: Bangkok
-
-Layers: roads, railroads, hospitals, schools, religious places, parks, water (shp, dwg)
-
-Last update: 2017
-
-### [Plannisa – Chiang Mai](https://asiancitymaps.wordpress.com/2017/04/15/chiang-mai-thailand/)
-
-Area: Chiang Mai
-
-Layers: roads, railroads, hospitals, schools, religious places, parks, water (shp, dwg)
-
-Last update: 2017
-
-### [Plannisa – Khon Kaen](https://asiancitymaps.wordpress.com/2017/06/09/khon-kaen-thailand/)
-
-Area: Khon Kaen
-
-Layers: roads, parks, water (shp, dwg)
-
-Last update: 2017
 
 ### [U Penn’s International GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254775)
 
@@ -138,29 +80,8 @@ Last update: 2017
 
 ## Spreadsheets
 
-### [Thailand Open Data](https://data.go.th/Datasets.aspx)
 
-Datasets: sociodemographic dataset (csv, xml, json)
 
-Area: Thailand
-
-Last update: 2017
-
-### [Ministry of Public Health](http://203.157.10.8/hcode_2014/p_export.php?p=3)
-
-Datasets: list of hospitals in Thailand (.csv)
-
-Area: Thailand
-
-Last update: 2018
-
-### [Thailand's National Statistics Organization](http://service.nso.go.th/nso/nso_center/project/search_center/23project-th.htm)
-
-Datasets: Census and Survey
-
-Area: Thailand by country, region, province
-
-Last update: 2004, [2018 - registration required](http://www.nso.go.th/sites/2014/Pages/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%8A%E0%B8%B4%E0%B8%81.aspx)
 
 ## Tools
 
@@ -176,9 +97,9 @@ GEOJSON, KML, CSV, DBF, and Shapefile converstion tool
 
 GEOJSON, KML, CSV, DBF, and Shapefile converstion tool
 
-### [kepler.gl](https://uber.github.io/kepler.gl/)
+### [kepler.gl](https://kepler.gl/)
 
-Uber’s Open Source Geospatial Toolbox
+Uber's Open Source Geospatial Toolbox
 
 ### [GeoJSONLint](http://geojsonlint.com/)
 
@@ -187,3 +108,9 @@ Online Geojson reader
 ### [Project Linework](http://www.projectlinework.org/)
 
 Handcrafted lineworks for cartography
+
+---
+
+## Credits
+
+This repository is a fork of the original [awesome-thai-gis](https://github.com/pnphannisa/awesome-thai-gis) by [@pnphannisa](https://github.com/pnphannisa). All credit for the initial curation goes to the original author.
