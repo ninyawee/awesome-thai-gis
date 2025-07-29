@@ -48,7 +48,7 @@ Free downloadable resources for doing GIS in Thailand
 ## Applications
 
 ### [Thailand Flood Realtime Dashboard](https://disaster.gistda.or.th/dashboard) - Flood monitoring application
-- **Organization**: GISTDA using Vallaris Maps
+- **Organization**: GISTDA using [Vallaris Maps](#vallaris-maps---cloud-gis-platform)
 - **Purpose**: Real-time flood monitoring and water level stations
 - **Coverage**: Thailand
 - **Update frequency**: Real-time
