@@ -53,6 +53,12 @@ Free downloadable resources for doing GIS in Thailand
 - **Coverage**: Thailand
 - **Update frequency**: Real-time
 
+### [National Thai Water Dam Information](https://nationalthaiwater.onwr.go.th/dam) - Dam and water resource monitoring (สถานการณ์น้ำประเทศไทย)
+- **Organization**: Office of National Water Resources (ONWR)
+- **Purpose**: Water situation monitoring, dam levels, and water resource data visualization
+- **Coverage**: Thailand
+- **Update frequency**: Real-time
+
 ### Land Parcel Mapping - Government land data visualization
 - **Organization**: Various government agencies
 - **Purpose**: Land plot visualization for provinces near Bangkok
