@@ -12,6 +12,13 @@ Free downloadable resources for doing GIS in Thailand
 - **Coverage**: Thailand electoral districts, municipalities, subdistricts
 - **Update frequency**: Electoral cycle
 
+### [Thai Province Data](https://github.com/kongvut/thai-province-data) - Administrative divisions metadata
+- **Organization**: kongvut (Ratchaphruek Hospital Public Company Limited, Khon Kaen)
+- **Data types**: CSV, JSON, SQL, XLSX, XML with JSON APIs
+- **Coverage**: Thailand provinces (จังหวัด), districts (อำเภอ), sub-districts (ตำบล) with coordinates and zip codes
+- **Update frequency**: Maintained with changelog, last major update v2
+- **Notable features**: Ready-to-use JSON APIs, JSON Schema validation, Docker support, React demo
+
 ### [NETH's E-Portfolio](https://csuwan.weebly.com/360436343623360936603650362736213604--download.html) - Administrative and infrastructure data
 - **Organization**: NETH
 - **Data types**: Province, Amphoe, Tambon, Village boundaries; Schools; Roads; Land lots; Satellite imagery
