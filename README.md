@@ -43,6 +43,14 @@ Free downloadable resources for doing GIS in Thailand
 - **Coverage**: Thailand, global
 - **Update frequency**: Last update 2017
 
+### [GlobalBuildingAtlas LoD1](https://github.com/zhu-xlab/GlobalBuildingAtlas) - Global building footprints with height
+- **Organization**: Technical University of Munich / German Aerospace Center (DLR)
+- **Data types**: Vector data (GeoParquet) with building footprints and height attributes (Level of Detail 1)
+- **Coverage**: Global (including Thailand)
+- **Update frequency**: Research dataset (2025)
+- **Paper**: [ESSD Publication](https://essd.copernicus.org/articles/17/6647/2025/)
+- **Notable features**: LoD1 building models derived from satellite imagery, includes building height information
+
 ### [U Penn's International GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254775) - Academic GIS resources
 - **Organization**: University of Pennsylvania
 - **Data types**: Various
